@@ -21,4 +21,3 @@ static void GetPoint(double b1, double k1, double b2, double k2)
     double x = (b2 - b1) / (k1 -k2);
     Console.WriteLine("(" + x + ";" + y + ")");
 }
-ы
