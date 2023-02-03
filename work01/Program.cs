@@ -8,8 +8,8 @@ string str = Console.ReadLine();
 string[] temp = str.Split(new Char[] {' '});
 int[] result = Array.ConvertAll(temp, int.Parse);
 
-
 int GetNum(int[] result)
+
 {   
     int sum = 0; 
 
